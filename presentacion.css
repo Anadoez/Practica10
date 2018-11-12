@@ -1,0 +1,91 @@
+/*****************************Estilos generales***************************************/
+body{
+    background-color: lavender;
+}
+
+
+
+/*****************************Estilos del header***************************************/
+h1{
+    overflow: hidden;
+    background-color: blueviolet;
+    color:orange;
+    padding:1%;
+    text-align: center;
+}
+ol{
+    list-style-type: none;
+    margin:0%;
+    padding: 0%;
+    overflow: hidden;
+    background-color: mediumpurple;
+
+}
+li{
+    float:left;
+    padding: 0.5%;
+    display: block;
+}
+li a{
+  
+    color:orange;
+    text-align: center;
+    padding:1%;
+    text-decoration: none;
+}
+li:hover{
+    background-color: blueviolet;
+}
+/*****************************Estilos de body home***************************************/
+#principal{
+    width:73%;
+    float:left;
+
+}
+aside{
+    width:25%;
+    float:right;
+}
+.imagen{
+    width:20%;
+    float:left;
+    margin:1%;
+}
+article{
+    width:65%;
+    float: right;
+    text-align: center;
+}
+h2{
+    color:violet;
+    padding:1%;
+}
+.texto{
+    border: 1px dashed purple;
+    border-radius: 10%;
+    background-color: violet;
+    width:80%; 
+    margin:auto;  
+}
+object{
+    border-radius: 5%;
+    box-shadow: 5px 10px indigo;
+
+}
+/********************************Estilos body portfolio************************/
+.construct{
+    margin:auto;
+    text-align: center;
+    font-size: 120%;
+    border: 2px solid purple;
+    background-color: violet;
+    width:50%;
+}
+.construct h2{
+    color:purple;
+    background-color:orange;
+}
+/*****************************Estilos de footer***************************************/
+footer{
+    clear:both;
+}
